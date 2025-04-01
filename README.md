@@ -56,4 +56,3 @@
 	3. async with 用于异步上下文管理器，自动调用对象的__aenter__和__aexit__方法。
 	4. 不能直接调用异步函数，必须使用 await 或将其包装成任务。
 	5. 在异步函数中应该避免使用阻塞操作，应使用相应的异步版本。
-![image](https://github.com/user-attachments/assets/84a6533e-e4b1-425e-9d9a-279e7bb68dc7)
